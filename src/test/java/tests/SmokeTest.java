@@ -5,11 +5,10 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.LoginPage;
 import steps.LoginStep;
-import steps.ProjectStep;
 
 public class SmokeTest extends BaseTest {
     @Test(description = "Basic test")
-    public void PositiveLoginTest() throws InterruptedException {
+    public void PositiveLoginTest() throws  InterruptedException {
         LoginStep loginStep = new LoginStep(driver);
         loginStep.Login(properties.getUsername(), properties.getPassword());
     }

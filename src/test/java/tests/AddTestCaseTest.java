@@ -24,5 +24,4 @@ public class AddTestCaseTest extends BaseTest {
 
         Thread.sleep(4000);
     }
-
 }

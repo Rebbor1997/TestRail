@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class ReadProperties {
-    protected Properties properties;
+    protected Properties  properties;
 
     public ReadProperties(){
         properties = new Properties();

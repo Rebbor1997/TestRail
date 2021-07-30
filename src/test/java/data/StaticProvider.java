@@ -2,7 +2,7 @@ package data;
 
 import org.testng.annotations.DataProvider;
 
-public class StaticProvider {
+public class  StaticProvider {
     @DataProvider(name = "TestCase")
     public static Object [][] dataForTestCase() {
         return new Object[][] {

@@ -12,8 +12,6 @@ public class DeletePage extends BasePage {
     private final static By delete_Ok_By =By.xpath("//div[@class= 'button-group dialog-buttons-highlighted']/ancestor::div[@id = 'dialog-ident-deleteDialog']//a[@class= 'button button-ok button-left button-positive dialog-action-default']");
 
 
-
-
     public DeletePage(WebDriver driver, boolean openPageByUrl) {
         super(driver, openPageByUrl);
     }

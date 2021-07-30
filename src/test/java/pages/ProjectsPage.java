@@ -48,7 +48,4 @@ public class ProjectsPage extends BasePage {
     public void setNewNameProject(String text) { getEditNewNameProject().sendKeys(text); }
     public void clickEditProjectButton() {getEditNewNameClick().click();}
 
-
-
-
 }
