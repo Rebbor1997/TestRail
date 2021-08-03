@@ -51,10 +51,4 @@ public class TestCasePage extends BasePage {
     public void setResult(String text) { getTestCaseResult().sendKeys(text);}
     public void clickAddTestCase() { getTestCaseAdd().click();}
 
-
-
-
-
-
-
 }

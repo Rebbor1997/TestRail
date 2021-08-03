@@ -19,7 +19,5 @@ public class TestCaseStep extends BaseStep {
         testCasePage.setSteps(steps);
         testCasePage.setResult(result);
         testCasePage.clickAddTestCase();
-
-
     }
 }

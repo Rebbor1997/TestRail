@@ -2,12 +2,11 @@ package tests;
 
 import baseEntities.BaseTest;
 import org.testng.annotations.Test;
-import pages.ProjectsPage;
 import steps.DeleteStep;
 import steps.LoginStep;
 import steps.ProjectStep;
 
-public class AddEditDeleteProjectTest extends BaseTest {
+public class AddEditDeleteProjectTest  extends BaseTest {
 
     @Test(invocationCount = 2)
     public void addProject() throws InterruptedException {

@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import pages.LoginPage;
 import steps.LoginStep;
 
-public class PriorityExampleTest extends BaseTest {
+public class PriorityExampleTest  extends BaseTest {
     @Test(priority = 1)
     public void PositiveLoginTest() throws InterruptedException {
         LoginStep loginStep = new LoginStep(driver);

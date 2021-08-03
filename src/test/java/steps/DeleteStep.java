@@ -4,7 +4,7 @@ import baseEntities.BaseStep;
 import org.openqa.selenium.WebDriver;
 import pages.DeletePage;
 
-public class DeleteStep extends BaseStep {
+public class  DeleteStep extends BaseStep {
     public DeleteStep(WebDriver driver) {
         super(driver);
     }
