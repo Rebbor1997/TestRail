@@ -23,4 +23,6 @@ public class ReadProperties {
 
     public String getNameProject(){return properties.getProperty("nameproject");}
     public String getNewNameProject(){return properties.getProperty("editnameproject");}
+
+    public int getTimeOut(){ return Integer.parseInt(properties.getProperty("timeout"));}
 }
